@@ -1,4 +1,9 @@
+import { BrowserRouter } from "react-router";
 import HeatCheckApp from "./HeatCheckApp";
 export default function App() {
-  return <HeatCheckApp />;
+  return (
+    <BrowserRouter>
+      <HeatCheckApp />
+    </BrowserRouter>
+  );
 }
